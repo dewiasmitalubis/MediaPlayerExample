@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 //playing audio when in paused state
         } else {
             if (mediaPlayer == null) {
-                mediaPlayer = MediaPlayer.create(applicationContext, R.raw.ring)
+                mediaPlayer = MediaPlayer.create(applicationContext, R.raw.ringbts)
                 mediaPlayer?.setOnCompletionListener { stopPlayer() }
             }
             mediaPlayer?.start()
